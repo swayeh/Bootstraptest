@@ -1,0 +1,20 @@
+body{background: linear-gradient(to right, #000000, #434343);}
+h1{color: rgb(27, 27, 177);background-color:rgba(222, 184, 135, 0.288);border-radius: 5px;font-size: 40px;font-style: italic; font-family:cursive;opacity: 0.5;}
+.test{background-color:#5f9ea075;color: crimson;font-size: 40px;font-style: italic;font-family: cursive;opacity:0.5;}
+#colorid{color: rgba(187, 61, 3, 0.808);background: linear-gradient(to right, #000046, #1cb5e0);margin:20px;
+font-size: 40px;font-style: italic;font-family: cursive;opacity:0.5;border:1px solid white;border-radius:5px;transition: 2s;width:800px;}  
+#testopacity{background-color: rgba(248, 1, 161, 0.41); text-decoration: none;opacity:0.5;
+cursor:wait;
+color:#7aff26d1; font-size: 40px;font-style: italic;font-family: cursive;border-radius: 5px;text-shadow:-8px 30px 3px;}
+h1:hover{opacity:1;color: white;}
+.test:hover{opacity:1;color: white;}
+#colorid:hover{opacity:1;color:white;width: 60%;}
+#testopacity:hover{opacity:1;color:white;}
+#gas{width:250px;height:250px;border-radius: 50%;opacity:0.4;border:6px double white;
+clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+cursor:not-allowed;filter: blur(0.5px) grayscale(100%);}
+#gas:hover{opacity:1;transform: rotate(360deg);transition:2s;}
+#padding{background-color: yellowgreen;padding:20px; width: 30%;font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;border-radius:5px;
+cursor: none;}
+#spacing{letter-spacing:10px;}
